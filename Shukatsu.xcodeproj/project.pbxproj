@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A3E53852E41FFF200CB29D6 /* ShukatsuModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E53832E41FFF200CB29D6 /* ShukatsuModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A04DAC72E3E04BD00B3372C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A04DAAB2E3E04BB00B3372C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A04DAB22E3E04BB00B3372C;
+			remoteInfo = Shukatsu;
+		};
+		3A04DAD12E3E04BD00B3372C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A04DAAB2E3E04BB00B3372C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A04DAB22E3E04BB00B3372C;
+			remoteInfo = Shukatsu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A04DAB32E3E04BB00B3372C /* Shukatsu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shukatsu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A04DAC62E3E04BD00B3372C /* ShukatsuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShukatsuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A04DAD02E3E04BD00B3372C /* ShukatsuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShukatsuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3E53842E41FFF200CB29D6 /* ShukatsuModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShukatsuModel.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3A04DAB52E3E04BB00B3372C /* Shukatsu */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Shukatsu;
+			sourceTree = "<group>";
+		};
+		3A04DAC92E3E04BD00B3372C /* ShukatsuTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ShukatsuTests;
+			sourceTree = "<group>";
+		};
+		3A04DAD32E3E04BD00B3372C /* ShukatsuUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ShukatsuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A04DAB02E3E04BB00B3372C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A04DAC32E3E04BD00B3372C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A04DACD2E3E04BD00B3372C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A04DAAA2E3E04BB00B3372C = {
+			isa = PBXGroup;
+			children = (
+				3A3E53832E41FFF200CB29D6 /* ShukatsuModel.xcdatamodeld */,
+				3A04DAB52E3E04BB00B3372C /* Shukatsu */,
+				3A04DAC92E3E04BD00B3372C /* ShukatsuTests */,
+				3A04DAD32E3E04BD00B3372C /* ShukatsuUITests */,
+				3A04DAB42E3E04BB00B3372C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A04DAB42E3E04BB00B3372C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A04DAB32E3E04BB00B3372C /* Shukatsu.app */,
+				3A04DAC62E3E04BD00B3372C /* ShukatsuTests.xctest */,
+				3A04DAD02E3E04BD00B3372C /* ShukatsuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A04DAB22E3E04BB00B3372C /* Shukatsu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A04DADA2E3E04BD00B3372C /* Build configuration list for PBXNativeTarget "Shukatsu" */;
+			buildPhases = (
+				3A04DAAF2E3E04BB00B3372C /* Sources */,
+				3A04DAB02E3E04BB00B3372C /* Frameworks */,
+				3A04DAB12E3E04BB00B3372C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3A04DAB52E3E04BB00B3372C /* Shukatsu */,
+			);
+			name = Shukatsu;
+			packageProductDependencies = (
+			);
+			productName = Shukatsu;
+			productReference = 3A04DAB32E3E04BB00B3372C /* Shukatsu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A04DAC52E3E04BD00B3372C /* ShukatsuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A04DADD2E3E04BD00B3372C /* Build configuration list for PBXNativeTarget "ShukatsuTests" */;
+			buildPhases = (
+				3A04DAC22E3E04BD00B3372C /* Sources */,
+				3A04DAC32E3E04BD00B3372C /* Frameworks */,
+				3A04DAC42E3E04BD00B3372C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A04DAC82E3E04BD00B3372C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3A04DAC92E3E04BD00B3372C /* ShukatsuTests */,
+			);
+			name = ShukatsuTests;
+			packageProductDependencies = (
+			);
+			productName = ShukatsuTests;
+			productReference = 3A04DAC62E3E04BD00B3372C /* ShukatsuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A04DACF2E3E04BD00B3372C /* ShukatsuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A04DAE02E3E04BD00B3372C /* Build configuration list for PBXNativeTarget "ShukatsuUITests" */;
+			buildPhases = (
+				3A04DACC2E3E04BD00B3372C /* Sources */,
+				3A04DACD2E3E04BD00B3372C /* Frameworks */,
+				3A04DACE2E3E04BD00B3372C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A04DAD22E3E04BD00B3372C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3A04DAD32E3E04BD00B3372C /* ShukatsuUITests */,
+			);
+			name = ShukatsuUITests;
+			packageProductDependencies = (
+			);
+			productName = ShukatsuUITests;
+			productReference = 3A04DAD02E3E04BD00B3372C /* ShukatsuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A04DAAB2E3E04BB00B3372C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					3A04DAB22E3E04BB00B3372C = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					3A04DAC52E3E04BD00B3372C = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 3A04DAB22E3E04BB00B3372C;
+					};
+					3A04DACF2E3E04BD00B3372C = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 3A04DAB22E3E04BB00B3372C;
+					};
+				};
+			};
+			buildConfigurationList = 3A04DAAE2E3E04BB00B3372C /* Build configuration list for PBXProject "Shukatsu" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A04DAAA2E3E04BB00B3372C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3A04DAB42E3E04BB00B3372C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A04DAB22E3E04BB00B3372C /* Shukatsu */,
+				3A04DAC52E3E04BD00B3372C /* ShukatsuTests */,
+				3A04DACF2E3E04BD00B3372C /* ShukatsuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A04DAB12E3E04BB00B3372C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A04DAC42E3E04BD00B3372C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A04DACE2E3E04BD00B3372C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A04DAAF2E3E04BB00B3372C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3E53852E41FFF200CB29D6 /* ShukatsuModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A04DAC22E3E04BD00B3372C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A04DACC2E3E04BD00B3372C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A04DAC82E3E04BD00B3372C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A04DAB22E3E04BB00B3372C /* Shukatsu */;
+			targetProxy = 3A04DAC72E3E04BD00B3372C /* PBXContainerItemProxy */;
+		};
+		3A04DAD22E3E04BD00B3372C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A04DAB22E3E04BB00B3372C /* Shukatsu */;
+			targetProxy = 3A04DAD12E3E04BD00B3372C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A04DAD82E3E04BD00B3372C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = UAG5Q78UA8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A04DAD92E3E04BD00B3372C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = UAG5Q78UA8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3A04DADB2E3E04BD00B3372C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				AUTOMATION_APPLE_EVENTS = YES;
+				CODE_SIGN_ENTITLEMENTS = Shukatsu/Shukatsu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = UAG5Q78UA8;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_FILE_ACCESS_DOWNLOADS_FOLDER = readwrite;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = YES;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Shukatsu;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Shukatsu needs permission to create a new document in Pages for your cover letter.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.denki-tiger.Shukatsu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3A04DADC2E3E04BD00B3372C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				AUTOMATION_APPLE_EVENTS = YES;
+				CODE_SIGN_ENTITLEMENTS = Shukatsu/Shukatsu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = UAG5Q78UA8;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_FILE_ACCESS_DOWNLOADS_FOLDER = readwrite;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = YES;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Shukatsu;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Shukatsu needs permission to create a new document in Pages for your cover letter.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.denki-tiger.Shukatsu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3A04DADE2E3E04BD00B3372C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = UAG5Q78UA8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.denki-tiger.ShukatsuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shukatsu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shukatsu";
+			};
+			name = Debug;
+		};
+		3A04DADF2E3E04BD00B3372C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = UAG5Q78UA8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.denki-tiger.ShukatsuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shukatsu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shukatsu";
+			};
+			name = Release;
+		};
+		3A04DAE12E3E04BD00B3372C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = UAG5Q78UA8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.denki-tiger.ShukatsuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Shukatsu;
+			};
+			name = Debug;
+		};
+		3A04DAE22E3E04BD00B3372C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = UAG5Q78UA8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.denki-tiger.ShukatsuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Shukatsu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A04DAAE2E3E04BB00B3372C /* Build configuration list for PBXProject "Shukatsu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A04DAD82E3E04BD00B3372C /* Debug */,
+				3A04DAD92E3E04BD00B3372C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A04DADA2E3E04BD00B3372C /* Build configuration list for PBXNativeTarget "Shukatsu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A04DADB2E3E04BD00B3372C /* Debug */,
+				3A04DADC2E3E04BD00B3372C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A04DADD2E3E04BD00B3372C /* Build configuration list for PBXNativeTarget "ShukatsuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A04DADE2E3E04BD00B3372C /* Debug */,
+				3A04DADF2E3E04BD00B3372C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A04DAE02E3E04BD00B3372C /* Build configuration list for PBXNativeTarget "ShukatsuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A04DAE12E3E04BD00B3372C /* Debug */,
+				3A04DAE22E3E04BD00B3372C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A3E53832E41FFF200CB29D6 /* ShukatsuModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A3E53842E41FFF200CB29D6 /* ShukatsuModel.xcdatamodel */,
+			);
+			currentVersion = 3A3E53842E41FFF200CB29D6 /* ShukatsuModel.xcdatamodel */;
+			path = ShukatsuModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3A04DAAB2E3E04BB00B3372C /* Project object */;
+}
